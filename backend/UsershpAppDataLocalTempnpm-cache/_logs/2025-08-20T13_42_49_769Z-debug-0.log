@@ -1,0 +1,172 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.5.1
+2 info using node@v22.16.0
+3 silly config load:file:C:\Users\hp\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\hp\Desktop\Web-dev\MyProject\my_book-app\backend\.npmrc
+5 silly config load:file:C:\Users\hp\.npmrc
+6 silly config load:file:C:\Users\hp\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install mongodb
+8 verbose argv "install" "mongodb"
+9 verbose logfile logs-max:10 dir:C:\Users\hp\Desktop\Web-dev\MyProject\my_book-app\backend\UsershpAppDataLocalTempnpm-cache\_logs\2025-08-20T13_42_49_769Z-
+10 verbose logfile C:\Users\hp\Desktop\Web-dev\MyProject\my_book-app\backend\UsershpAppDataLocalTempnpm-cache\_logs\2025-08-20T13_42_49_769Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly fetch manifest mongodb@*
+15 silly packumentCache full:https://registry.npmjs.org/mongodb cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/mongodb 350ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/mongodb set size:3394997 disposed:false
+18 silly fetch manifest @aws-sdk/credential-providers@^3.188.0
+19 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-providers cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fcredential-providers 84ms (cache revalidated)
+21 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-providers set size:1586872 disposed:false
+22 silly fetch manifest @mongodb-js/zstd@^1.1.0 || ^2.0.0
+23 silly packumentCache full:https://registry.npmjs.org/@mongodb-js%2fzstd cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/@mongodb-js%2fzstd 327ms (cache revalidated)
+25 silly packumentCache full:https://registry.npmjs.org/@mongodb-js%2fzstd set size:91033 disposed:false
+26 silly fetch manifest gcp-metadata@^5.2.0
+27 silly packumentCache full:https://registry.npmjs.org/gcp-metadata cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/gcp-metadata 81ms (cache revalidated)
+29 silly packumentCache full:https://registry.npmjs.org/gcp-metadata set size:182287 disposed:false
+30 silly fetch manifest kerberos@^2.0.1
+31 silly packumentCache full:https://registry.npmjs.org/kerberos cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/kerberos 79ms (cache revalidated)
+33 silly packumentCache full:https://registry.npmjs.org/kerberos set size:110721 disposed:false
+34 silly fetch manifest mongodb-client-encryption@>=6.0.0 <7
+35 silly packumentCache full:https://registry.npmjs.org/mongodb-client-encryption cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/mongodb-client-encryption 909ms (cache revalidated)
+37 silly packumentCache full:https://registry.npmjs.org/mongodb-client-encryption set size:251848 disposed:false
+38 silly fetch manifest snappy@^7.2.2
+39 silly packumentCache full:https://registry.npmjs.org/snappy cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/snappy 88ms (cache revalidated)
+41 silly packumentCache full:https://registry.npmjs.org/snappy set size:180076 disposed:false
+42 silly fetch manifest socks@^2.7.1
+43 silly packumentCache full:https://registry.npmjs.org/socks cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/socks 81ms (cache revalidated)
+45 silly packumentCache full:https://registry.npmjs.org/socks set size:168523 disposed:false
+46 silly placeDep ROOT mongodb@6.18.0 REPLACE for: backend@1.0.0 want: *
+47 silly reify moves {}
+48 silly audit bulk request {
+48 silly audit   '@mongodb-js/saslprep': [ '1.3.0' ],
+48 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+48 silly audit   '@types/whatwg-url': [ '11.0.5' ],
+48 silly audit   accepts: [ '2.0.0' ],
+48 silly audit   anymatch: [ '3.1.3' ],
+48 silly audit   'balanced-match': [ '1.0.2' ],
+48 silly audit   'binary-extensions': [ '2.3.0' ],
+48 silly audit   'body-parser': [ '2.2.0' ],
+48 silly audit   'brace-expansion': [ '1.1.12' ],
+48 silly audit   braces: [ '3.0.3' ],
+48 silly audit   bson: [ '6.10.4' ],
+48 silly audit   bytes: [ '3.1.2' ],
+48 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+48 silly audit   'call-bound': [ '1.0.4' ],
+48 silly audit   chokidar: [ '3.6.0' ],
+48 silly audit   'concat-map': [ '0.0.1' ],
+48 silly audit   'content-disposition': [ '1.0.0' ],
+48 silly audit   'content-type': [ '1.0.5' ],
+48 silly audit   cookie: [ '0.7.2' ],
+48 silly audit   'cookie-signature': [ '1.2.2' ],
+48 silly audit   cors: [ '2.8.5' ],
+48 silly audit   debug: [ '4.4.1' ],
+48 silly audit   depd: [ '2.0.0' ],
+48 silly audit   dotenv: [ '17.2.1' ],
+48 silly audit   'dunder-proto': [ '1.0.1' ],
+48 silly audit   'ee-first': [ '1.1.1' ],
+48 silly audit   encodeurl: [ '2.0.0' ],
+48 silly audit   'es-define-property': [ '1.0.1' ],
+48 silly audit   'es-errors': [ '1.3.0' ],
+48 silly audit   'es-object-atoms': [ '1.1.1' ],
+48 silly audit   'escape-html': [ '1.0.3' ],
+48 silly audit   etag: [ '1.8.1' ],
+48 silly audit   express: [ '5.1.0' ],
+48 silly audit   'fill-range': [ '7.1.1' ],
+48 silly audit   finalhandler: [ '2.1.0' ],
+48 silly audit   forwarded: [ '0.2.0' ],
+48 silly audit   fresh: [ '2.0.0' ],
+48 silly audit   fsevents: [ '2.3.3' ],
+48 silly audit   'function-bind': [ '1.1.2' ],
+48 silly audit   'get-intrinsic': [ '1.3.0' ],
+48 silly audit   'get-proto': [ '1.0.1' ],
+48 silly audit   'glob-parent': [ '5.1.2' ],
+48 silly audit   gopd: [ '1.2.0' ],
+48 silly audit   'has-flag': [ '3.0.0' ],
+48 silly audit   'has-symbols': [ '1.1.0' ],
+48 silly audit   hasown: [ '2.0.2' ],
+48 silly audit   'http-errors': [ '2.0.0' ],
+48 silly audit   statuses: [ '2.0.1', '2.0.2' ],
+48 silly audit   'iconv-lite': [ '0.6.3' ],
+48 silly audit   'ignore-by-default': [ '1.0.1' ],
+48 silly audit   inherits: [ '2.0.4' ],
+48 silly audit   'ipaddr.js': [ '1.9.1' ],
+48 silly audit   'is-binary-path': [ '2.1.0' ],
+48 silly audit   'is-extglob': [ '2.1.1' ],
+48 silly audit   'is-glob': [ '4.0.3' ],
+48 silly audit   'is-number': [ '7.0.0' ],
+48 silly audit   'is-promise': [ '4.0.0' ],
+48 silly audit   kareem: [ '2.6.3' ],
+48 silly audit   'math-intrinsics': [ '1.1.0' ],
+48 silly audit   'media-typer': [ '1.1.0' ],
+48 silly audit   'memory-pager': [ '1.5.0' ],
+48 silly audit   'merge-descriptors': [ '2.0.0' ],
+48 silly audit   'mime-db': [ '1.54.0' ],
+48 silly audit   'mime-types': [ '3.0.1' ],
+48 silly audit   minimatch: [ '3.1.2' ],
+48 silly audit   'mongodb-connection-string-url': [ '3.0.2' ],
+48 silly audit   mongoose: [ '8.17.2' ],
+48 silly audit   mpath: [ '0.9.0' ],
+48 silly audit   mquery: [ '5.0.0' ],
+48 silly audit   ms: [ '2.1.3' ],
+48 silly audit   negotiator: [ '1.0.0' ],
+48 silly audit   nodemon: [ '3.1.10' ],
+48 silly audit   'normalize-path': [ '3.0.0' ],
+48 silly audit   'object-assign': [ '4.1.1' ],
+48 silly audit   'object-inspect': [ '1.13.4' ],
+48 silly audit   'on-finished': [ '2.4.1' ],
+48 silly audit   once: [ '1.4.0' ],
+48 silly audit   parseurl: [ '1.3.3' ],
+48 silly audit   'path-to-regexp': [ '8.2.0' ],
+48 silly audit   picomatch: [ '2.3.1' ],
+48 silly audit   'proxy-addr': [ '2.0.7' ],
+48 silly audit   'pstree.remy': [ '1.1.8' ],
+48 silly audit   punycode: [ '2.3.1' ],
+48 silly audit   qs: [ '6.14.0' ],
+48 silly audit   'range-parser': [ '1.2.1' ],
+48 silly audit   'raw-body': [ '3.0.0' ],
+48 silly audit   readdirp: [ '3.6.0' ],
+48 silly audit   router: [ '2.2.0' ],
+48 silly audit   'safe-buffer': [ '5.2.1' ],
+48 silly audit   'safer-buffer': [ '2.1.2' ],
+48 silly audit   semver: [ '7.7.2' ],
+48 silly audit   send: [ '1.2.0' ],
+48 silly audit   'serve-static': [ '2.2.0' ],
+48 silly audit   setprototypeof: [ '1.2.0' ],
+48 silly audit   'side-channel': [ '1.1.0' ],
+48 silly audit   'side-channel-list': [ '1.0.0' ],
+48 silly audit   'side-channel-map': [ '1.0.1' ],
+48 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+48 silly audit   sift: [ '17.1.3' ],
+48 silly audit   'simple-update-notifier': [ '2.0.0' ],
+48 silly audit   'sparse-bitfield': [ '3.0.3' ],
+48 silly audit   'supports-color': [ '5.5.0' ],
+48 silly audit   'to-regex-range': [ '5.0.1' ],
+48 silly audit   toidentifier: [ '1.0.1' ],
+48 silly audit   touch: [ '3.1.1' ],
+48 silly audit   tr46: [ '5.1.1' ],
+48 silly audit   'type-is': [ '2.0.1' ],
+48 silly audit   undefsafe: [ '2.0.5' ],
+48 silly audit   unpipe: [ '1.0.0' ],
+48 silly audit   vary: [ '1.1.2' ],
+48 silly audit   'webidl-conversions': [ '7.0.0' ],
+48 silly audit   'whatwg-url': [ '14.2.0' ],
+48 silly audit   wrappy: [ '1.0.2' ],
+48 silly audit   mongodb: [ '6.18.0' ]
+48 silly audit }
+49 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 351ms
+50 silly audit report {}
+51 verbose cwd C:\Users\hp\Desktop\Web-dev\MyProject\my_book-app\backend
+52 verbose os Windows_NT 10.0.26100
+53 verbose node v22.16.0
+54 verbose npm  v11.5.1
+55 verbose exit 0
+56 info ok
