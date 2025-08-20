@@ -4,13 +4,15 @@ const Book = require("./book.model");
 
 router.get("/", async (req, res) => {
   const books = await Book.find();
-  res.send(books);
+  res.json(books);
 });
 
 router.post("/", async (req, res) => {
   const { title = "Harry Potter", author = "Jack Lee" } = req.body || {};
   const newBook = await Book.create({ title, author });
-  res.send(newBook);
+  res.json(newBook);
 });
+
+router.delete("/:id", async (req, res) => {});
 
 module.exports = router;
