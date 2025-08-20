@@ -7,7 +7,7 @@ export default function CreateBook({ addBook }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!title || !author) return;
-    addBook({ title, author, _id: Date.now() }); // Added _id for demo
+    addBook({ title, author });
     setTitle("");
     setAuthor("");
   };

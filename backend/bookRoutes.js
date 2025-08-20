@@ -13,6 +13,10 @@ router.post("/", async (req, res) => {
   res.json(newBook);
 });
 
-router.delete("/:id", async (req, res) => {});
+router.delete("/:id", async (req, res) => {
+  const id = req.params.id;
+  await Book.findByIdAndDelete(id);
+  res.json({ message: "Book deleted" });
+});
 
 module.exports = router;
