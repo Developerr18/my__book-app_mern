@@ -2,17 +2,16 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 require("dotenv").config();
-const Book = require("./book.model");
 
 const app = express();
-app.use(express.json());
 app.use(cors());
+app.use(express.json());
 
-app.get("/", async (req, res) => {
-  const books = await Book.find();
-  res.send(books);
-});
+// Routes
+const bookRoutes = require("./bookRoutes");
+app.use("/api/books", bookRoutes);
 
+// connect db
 mongoose
   .connect(process.env.MONGO_URI)
   .then(() => {
