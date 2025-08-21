@@ -20,10 +20,10 @@ export default function BookList({ books, deleteBook }) {
               </div>
               <button
                 onClick={() => deleteBook(book._id)}
-                className="ml-4 p-2 text-red-500 hover:text-red-700 hover:bg-red-50 rounded-full transition-all duration-150 transform hover:scale-110"
+                className="ml-4 px-4 py-2 text-white bg-red-500 hover:bg-red-400 rounded transition-all duration-150 transform hover:scale-110"
                 title="Delete book"
               >
-                ❌
+                Delete
               </button>
             </li>
           ))}

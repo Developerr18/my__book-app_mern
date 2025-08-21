@@ -19,4 +19,11 @@ router.delete("/:id", async (req, res) => {
   res.json({ message: "Book deleted" });
 });
 
+router.patch("/:id", async (req, res) => {
+  const id = req.params.id;
+  const { title, author } = req.body;
+  await Book.findByIdAndUpdate(id, { title, author });
+  res.json({ message: "Book Updated" });
+});
+
 module.exports = router;
